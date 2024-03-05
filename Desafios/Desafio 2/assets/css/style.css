@@ -1,0 +1,49 @@
+/* Configuración de la fuente para todo el cuerpo */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para el encabezado */
+.header {
+  height: 10em;
+  padding: 5em;
+  font-size: 2em;
+  background-image: url("/Desafios/assets/imgs/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Estilos para el título dentro del encabezado */
+.header h1 {
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Estilos para la sección de productos */
+.products {
+  width: 80%;
+  margin: auto;
+}
+
+/* Estilos para las celdas de la tabla de productos */
+.products td {
+  width: 50%;
+  padding: 2em;
+}
+
+/* Estilos para las imágenes de productos */
+.products-img {
+  width: 100%;
+  border: solid 1px #ddd;
+}
+
+/* Estilos para el pie de página */
+footer {
+  height: 3em;
+  line-height: 3em;
+  background-color: rgb(185, 112, 41);
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+

@@ -1,0 +1,21 @@
+
+#titulo-principal{
+    color: brown;
+}
+.titulo-secundario{
+    color: green;
+}
+
+.border-box{
+    border: solid 1px black;
+    margin: 50px;
+    padding: 20px;
+}
+
+/*
+    Modelo en cascada
+*/
+
+p{
+    color: red;
+}
